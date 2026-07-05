@@ -127,6 +127,8 @@ ol {
   border-bottom: solid 1px #fff;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
   background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -144,8 +146,6 @@ ol {
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
 }
 
 .search-form__checkbox-list {
@@ -238,6 +238,7 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
+  gap: 30px;
   height: 298px;
   overflow: auto;
 }
